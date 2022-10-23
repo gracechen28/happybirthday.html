@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<script>
+    function run(){
+        document.getElementById("word").innerHTML="Emily Wu's college is Ravenclaw"
+    }
+
+</script>
+<body background="images/Hogwarts%20wallpaper%20HD.jpg" width="500">
+    <audio id="music1" controls="controls" autoplay="autoplay" hidden="true">
+        <source src="music/harrypottermelody.mp3"/>
+    </audio>
+    <center>
+  		<font size="6" color="white"><b>Sorting Exam</b></font>
+        <h1 style="color:silver" "font-family:monospace">Aha! You must be this year's freshman, <span style="color:goldenrod">Emily Wu</span>！Answer me a few questions now and then i can sort you into the most suitable colleges!  </h1>
+  	</center><br>
+        <p style="color:aliceblue">1.如果可以選一隻特殊的魔法生物當作寵物，妳會選擇？</p>
+  		<p style="color:aliceblue">
+  			<input type="radio" name="Q1" value="1">玻璃獸<br>
+  			<input type="radio" name="Q1" value="2">木精<br>
+  			<input type="radio" name="Q1" value="3">拜月獸<br>
+  			<input type="radio" name="Q1" value="4">幻影猿<br> 
+  		</p>
+  		<p style="color:aliceblue">2.結束了疲勞的一天後，最想看哪一類型的影片？</p>
+  		<p style="color:aliceblue">
+  			<input type="radio" name="Q2" value="1">運動比賽<br>
+  			<input type="radio" name="Q2" value="2">經典電影<br>
+  			<input type="radio" name="Q2" value="3">搞笑短片<br>  
+  			<input type="radio" name="Q2" value="4">熱門韓劇<br>
+  		</p>
+  		<p style="color:aliceblue">3.如果要選一個人跟你困在電梯裡五個小時，你會選擇？</p>
+  		<p style="color:aliceblue">
+  		    <input type="radio" name="Q3" value="1">郁婷<br>
+  			<input type="radio" name="Q3" value="2">姐姐<br>
+  			<input type="radio" name="Q3" value="3">巧瑗<br> 
+  			<input type="radio" name="Q3" value="4">品方<br>
+  		</p>
+  		<p style="color:aliceblue">4.你覺得十年後的自己會對下列哪一件事最印象深刻？</p>
+  		<p style="color:aliceblue">
+  			<input type="radio" name="Q4" value="1">在夜雨中騎腳踏車騎到跌倒<br>
+  			<input type="radio" name="Q4" value="2">本次生日驚喜<br>
+  			<input type="radio" name="Q4" value="3">獲得大專生研究計畫的補助<br> 
+  			<input type="radio" name="Q4" value="4">想夜闖宿舍頂樓但是失敗<br>
+  		</p>
+  		<p style="color:aliceblue">5.這學期的寢聚要吃？</p>
+  		<p style="color:aliceblue">
+  			<input type="radio" name="Q5" value="1">藏壽司<br>
+  			<input type="radio" name="Q5" value="2">鍋in<br>
+  			<input type="radio" name="Q5" value="3">韓天閣<br>  
+  			<input type="radio" name="Q5" value="4">貳樓<br>
+  		</p>
+  		<p style="color:aliceblue">6.你覺得下列哪一件事困難程度最高？</p>
+  		<p style="color:aliceblue">
+  			<input type="radio" name="Q6" value="1">教會露水三步上籃<br>
+  			<input type="radio" name="Q6" value="2">訓練好品方回話技巧<br>
+  			<input type="radio" name="Q6" value="3">督促巧瑗每晚都準時上床睡覺<br>  
+  			<input type="radio" name="Q6" value="4">全都不困難啊！<br>
+  		</p>
+  		<p style="color:aliceblue">7.你覺得自己像是哈利波特裡的哪一個學生？</p>
+  		<p style="color:aliceblue">
+  		    <input type="text" id="emily" >
+  		</p>
+  		<p style="color:aliceblue">8.你覺得巧瑗像是宮崎駿的哪一個人物？</p>
+  		<p style="color:aliceblue">
+  		    <input type="text" id="ting" >
+  		</p>
+  		<p style="color:aliceblue">9.你覺得品方像是韓劇裡的哪一個反派？</p>
+  		<p style="color:aliceblue">
+  		    <input type="text" id="pin" >
+  		</p>
+        <p style="color:aliceblue">10.你覺得露水像是迪士尼裡的哪一個角色？</p>
+  		<p style="color:aliceblue">
+  		    <input type="text" id="pin" >
+  		</p>
+        <hr>
+        <center>
+        <img src="images/submit.png" width= "100" onclick="run()">
+        <h3 style="color:cornsilk" id="word">Results</h3>
+        </center>
+        <audio id="myaudio" src="music/harrypottermelody.mp3" controls="controls" autoplay loop="true" hidden="true">
+</audio>
+</body>
+</html>
